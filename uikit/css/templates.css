@@ -1,0 +1,299 @@
+#template-1 .intro-content {
+  text-align: center;
+  font-weight: 300;
+  min-width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#template-1 .avatar {
+  display: block;
+  width: 160px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#template-1 .intro-content > h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+#template-1 .btn-glossy.inverse {
+  border: 0;
+}
+#template-1 .btn.inverse {
+  border: 0;
+  color: #fff;
+  background-color: #03af60;
+  padding: 19px 20px;
+}
+#template-1 .btn-glossy {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: none;
+  transition: none;
+}
+#template-1 .btn-glossy span {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1.2px;
+  color: currentColor;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+}
+#template-1 .btn-glossy.inverse span {
+  color: #fff;
+}
+#template-1 .intro-inner {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+#template-1 .intro-inner-right {
+  right: 0;
+  overflow-y: auto !important;
+  padding: 0% 2%;
+}
+#template-1 .intro-inner-left {
+  left: 0;
+  background: #f9f9f9;
+}
+#template-1 .intro-inner{
+  overflow:hidden;
+}
+#template-1 .timeline-item {
+  display: flex;
+  padding-bottom: 50px;
+}
+#template-1 .timeline-image {
+  display: inline-block;
+}
+#template-1 .timeline-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#template-1 .timeline-content {
+  padding-left: 40px;
+  position: relative;
+}
+#template-1 .timeline-content .time {
+  color: #999;
+  padding: 6px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#template-1 .timeline-content h5 {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 35px;
+}
+#template-1 .timeline-content h5:after {
+  content: '';
+  display: block;
+  background-color: #e1e1e1;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  bottom: 15px;
+}
+#template-1 .section-block > .title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#template-1 .progress-info {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#template-1 .progress, .progress-bar {
+  height: 10px;
+}
+#template-1  .progress {
+  position: relative;
+  height: 10px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  background-color: #ebebeb;
+  overflow: visible;
+  border-radius: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#template-1 .progress-info {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#template-1 .progress-bar {
+  background-color: #03af60 !important;
+  border-radius: 50px !important;
+  color: currentColor;
+  font-size: 14px;
+  background-color: #03af60;
+  border-radius: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+#template-1 .progress-bar .value {
+  bottom: 25px;
+}
+#template-1 .progress-bar .value {
+  color: #b7b7b7;
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+}
+#template-1 .section-block {
+  padding: 20px 10px;
+}
+#template-1 .exp-timeline, .edu-timeline {
+  padding-top: 30px;
+}
+#template-1 .edu-timeline .timeline-item:first-child {
+  border-top: 1px solid #e4e4e4;
+}
+#template-1 .edu-timeline .timeline-item {
+  padding: 30px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+#template-1 .edu-timeline .timeline-item:nth-child(2n+2) {
+  background-color: #f7f7f7;
+}
+#template-1 .works-filter-wrap {
+  display: none;
+}
+#template-1 .works-container {
+  padding: 0;
+  margin: 0 -15px;
+  overflow: hidden;
+}
+#template-1 .works-item {
+  margin: 15px;
+  padding: 0;
+  width: calc(50% - 58px);
+  overflow: hidden;
+}
+#template-1 .works-item:hover .works-item-inner {
+  opacity: 1;
+}
+#template-1 #portfolio {
+  background: #fff !important;
+  padding: 5px 0;
+}
+#template-1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#template-1 .testimonial-image img {
+  max-width: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  display: inline-block !important;
+}
+#template-1 .works-item-inner h4 {
+  color: #272727;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin: 0 0 2px;
+}
+#template-1 .works-item-inner h5 {
+  color: #a5a5a5;
+  font-size: 14px;
+  font-style: italic;
+}
+#template-1 .works-item-inner {
+  text-align: left;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s ease;
+  padding: 40px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+#template-1 .contact-form {
+  margin-bottom: 60px;
+}
+#template-1 p.send-status {
+  display: none;
+  margin: 0 0 40px;
+  padding: 0 15px;
+}
+#template-1 p.send-status {
+  display: none;
+  margin: 0 0 40px;
+  padding: 0 15px;
+}
+#template-1 .form-control {
+  height: 40px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+  border-color: #e1e1e1;
+  border-width: 0 0 2px;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 10px 0;
+}
+#template-1 .form-group label {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 2px;
+  pointer-events: none;
+  font-size: 0;
+}
+#template-1 textarea.form-control {
+  height: auto;
+}
+#template-1 .p-b-20 {
+  padding-bottom: 20px !important;
+  float: left;
+}
+#template-1 .contact-form .form-control {
+  padding: 0px;
+}
+#template-1 .col-xs-12 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#template-1 .contact-form textarea {
+  border-width: 0 0 2px !important;
+}
+#template-1 .owl-carousel.owl-hidden {
+  opacity: 0;
+}
+#template-1 .owl-carousel.owl-loaded {
+  display: block;
+}
+#template-1 .testimonial-carousel {
+  text-align: center;
+}
+#template-1 .owl-carousel {
+  overflow: hidden;
+}
+#template-1 .owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+#template-1 .contact-info {
+  width: 100%;
+}
